@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=dancing script|caveat');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@400;700&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -11,8 +11,8 @@ Fonts are separated by a | */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "dancing script", cursive;
-  --paragraph-font: "caveat", cursive;
+  --heading-font: "Dancing Script", cursive;
+  --paragraph-font: Caveat, cursive;
   
 
   /* these colors below should be chosen from among your palette colors above */
