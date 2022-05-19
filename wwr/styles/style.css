@@ -1,4 +1,4 @@
-div content{
+#content {
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
@@ -8,20 +8,20 @@ nav a {
     color:rgb(253, 248, 241);
     text-decoration: none;
 }
-hero-msg h1 {
+#hero-msg h1 {
     text-align:center;
     color:rgb(253, 248, 241);
 }
-hero-msg h4 {
+#hero-msg h4 {
     text-align: center;
 }
-button-box {
+.button-box {
     text-align: center;
 }
 main-section {
     text-align: center;
 }
-div background {
+.background {
     height: 725xp;
 }
 body {
@@ -31,9 +31,6 @@ body {
 header {
     background-color: #D69936;
     color:rgb(253, 248, 241);
-}
-nav a:hover {
-    background-color: #B7D5D4;
 }
 .book, .join {
     background-color:#3C6E71;
