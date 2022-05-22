@@ -13,7 +13,7 @@ nav a {
 }
 #hero-msg h1 {
     text-align:center;
-    color:rgb(246, 225, 195);
+    color: rgb(246, 225, 195);
 }
 .home-title {
     font-family: 'satisfy', cursive;
@@ -25,7 +25,7 @@ nav a {
     text-align: center;
 }
 h4 {
-    color: rgb(246, 225, 195);
+    color:rgb(246, 225, 195);
 }
 .button-box {
     text-align: center;
@@ -35,12 +35,12 @@ main-section {
 }
 #background {
     height: 725xp;
-    background-color: bisque;
+    background-color:rgb(246, 225, 195);
 }
 body {
-    background-color: #3C6E71;
+    background-color:#3C6E71 ;
     font-family: 'Quicksand', sans-ser if;
-    color:rgb(253, 248, 241);
+    color: rgb(246, 225, 195); 
     font-size: 22px;
     padding: 0;
     margin: 0;
@@ -123,8 +123,8 @@ footer .social img {
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
-.card.img {
-    border: 10px, solid black;
+.card-img {
+    border: 10px solid #B7D5D4;
 }
 main section img {
     box-sizing: border-box;
