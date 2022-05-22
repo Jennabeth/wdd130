@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Satisfy&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -13,6 +15,7 @@ nav a {
     color:rgb(246, 225, 195);
 }
 .home-title {
+    
     color:rgb(246, 225, 195);
 }
 #hero-msg h4 {
@@ -53,8 +56,8 @@ nav a:hover {
     color:rgb(246, 225, 195);
 }
 .msg {
-    background-color: #3C6E71;
-    color:rgb(253, 248, 241);
+    background-color: #B7D5D4;
+    color:rgb(167, 120, 54);
 }
 .msg h2 {
     color: rgb(246, 225, 195);
