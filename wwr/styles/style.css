@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@500&family=Montserrat:wght@200&family=Nunito:ital,wght@1,200&family=Quicksand&family=Satisfy&display=swap');
 
 #content {
     max-width: 1600px;
@@ -16,7 +16,7 @@ nav a {
     color: rgb(246, 225, 195);
 }
 .home-title {
-    font-family: 'satisfy', cursive;
+    font-family: 'satisfy', 'Dancing script', 'Courgette', cursive;
     font-size: 2em;
     color:rgb(246, 225, 195);
     margin-top: 10px;
@@ -39,7 +39,7 @@ main-section {
 }
 body {
     background-color:#3C6E71 ;
-    font-family: 'Quicksand', sans-ser if;
+    font-family: 'Quicksand', 'Montserrat', 'Nunito', sans-ser if;
     color: rgb(246, 225, 195); 
     font-size: 22px;
     padding: 0;
@@ -76,7 +76,7 @@ nav a:hover {
     padding: 35px;
 }
 .msg h2 {
-    font-family: 'satisfy', cursive;
+    font-family: 'satisfy','Dancing script', 'Courgette', cursive;
     color: rgba(35, 34, 33, 0.331);
 }
 .msg p {
