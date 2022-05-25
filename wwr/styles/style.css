@@ -3,10 +3,9 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    text-align: center;
 }
 nav a {
-    text-align: center;
+    text-align:center;
     color:rgb(246, 225, 195);
     text-decoration: none;
     padding: 35px;
@@ -22,110 +21,110 @@ nav a {
     margin-top: 10px;
 }
 #hero-msg h4 {
-    text-align: center;
+    text-align:center;
 }
 h4 {
     color:rgb(246, 225, 195);
 }
 .button-box {
-    text-align: center;
+    text-align:center;
 }
-main-section {
-    text-align: center;
+main section {
+    text-align:center;
 }
 #background {
-    height: 725xp;
+    height:725xp;
     background-color:rgb(246, 225, 195);
 }
 body {
     background-color:#3C6E71 ;
-    font-family: 'Quicksand', 'Montserrat', 'Nunito', sans-ser if;
+    font-family:Quicksand, Montserrat, Nunito, sans-ser if;
     color: rgb(246, 225, 195); 
-    font-size: 22px;
-    padding: 0;
-    margin: 0;
+    font-size:22px;
+    padding:0;
+    margin:0;
 }
 h2 {
     margin: 0;
 }
 header {
-    background-color: #D69936;
+    background-color:#D69936;
     color:rgb(253, 248, 241);
 }
 nav a:hover {
     background-color:gray;
-    color: rgb(246, 225, 195);
+    color:rgb(246, 225, 195);
 }
 .book, .join {
     background-color:#3C6E71;
-    text-decoration: none;
-    color: rgb(246, 225, 195);
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
+    text-decoration:none;
+    color:rgb(246, 225, 195);
+    font-size:18px;
+    padding:15px 30px;
+    margin-top:50px;
+    border-radius:5px;
 }
 .book:hover, .join:hover {
-    background-color: gray;
+    background-color:gray;
     color:rgb(246, 225, 195);
 }
 .msg {
-    background-color: #B7D5D4;
+    background-color:#B7D5D4;
     color:black;
-    line-height: 1.5em;
-    padding: 35px;
+    line-height:1.5em;
+    padding:35px;
 }
 .msg h2 {
-    font-family: 'satisfy','Dancing script', 'Courgette', cursive;
-    color: rgba(35, 34, 33, 0.331);
+    font-family:satisfy,'Dancing script', Courgette, cursive;
+    color:rgba(35, 34, 33, 0.331);
 }
 .msg p {
-    color: rgba(35, 34, 33, 0.331);
-    font-size: .8em;
+    color:rgba(35, 34, 33, 0.331);
+    font-size:.8em;
     padding-bottom:15px;
 }
 footer {
-    background-color: #B7D5D4;
+    background-color:#B7D5D4;
     color:rgb(253, 248, 241);
-    text-decoration: none;
-    padding: 25px 50px;
-    margin-top: 200px;
+    text-decoration:none;
+    padding:25px 50px;
+    margin-top:200px;
 }
 footer h3 {
-    color: gray;
+    color:gray;
 }
 footer h3 a:hover {
-    text-decoration: underline;
+    text-decoration:underline;
 }
 footer a {
-    color: white;
-    text-decoration: none;
+    color:white;
+    text-decoration:none;
 }
 footer a:hover {
     color:gray;
 }
 .logo {
-    width: 80px;
+    width:80px;
 }
 .icon {
-    width: 80px;
-    padding-top: 10px;
+    width:80px;
+    padding-top:10px;
 }
 #hero-img {
-    width: 100%;
+    width:100%;
 }
 #logo_link {
-    padding-top: 5px;
+    padding-top:5px;
 }
 footer .social img {
-    padding-top: 15px;
+    padding-top:15px;
 }
 .rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
+    margin:200px 0;
 }
 .card-img {
-    border: 10px solid #B7D5D4;
+    border:10px solid #B7D5D4;
 }
 main section img {
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
