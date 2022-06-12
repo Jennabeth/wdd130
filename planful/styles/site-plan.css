@@ -174,3 +174,12 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+#home-page-phone, #home-page-bank {
+  width: 250px;
+}
+#how-couple, #how-family {
+  width: 300px
+}
+ #why-us-couple, #why-us-family, #why-us-pizza {
+  width: 300px
+ }
