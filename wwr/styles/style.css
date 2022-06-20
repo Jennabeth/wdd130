@@ -188,41 +188,42 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
-
+/*FAQ page starts here */
 .faq-grid{
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+
 
 }
-
-#faq-title{
-    text-align: center;
+.faq-msg h1{
+    font-size: larger;
     text-decoration: underline;
+    text-align: center;
 }
-#faqul{
-    list-style-type: none;
+.faq-msg h2, h3, h4{
+    font-size: large;
+    text-align: left;
+    margin-left: 50px;
 }
-#faqul {
-    margin: 0;
-    padding: 0;
+.faq-msg p{
+    font-size:13px;
+    text-align: left;
+    margin-left: 65px;
+    
 }
-.questions{
-    cursor: pointer;
-    user-select: none;
+#faqcontent{
+    max-width: 1600px;
+    margin: 0 auto;
 }
-.questions::before{
-    content: "\25B6";
-    color:rgb(246, 225, 195);
-    margin-right: 6px;
-}
-.nested {
-    display:inline-flexbox;
-}
-#faq-img{
-    width: 50%;
-    padding-bottom: 100px;
-    grid-column: 8/10 ;
-    grid-row: 6/9;
+
+.faq-img{
+    width: 320px;
+    height: 320px;
+    margin-top: 75px;
+    margin-right:70px;
+    margin-left: 50px;
+    
    
 }
 @media screen and (max-width: 900px) {
