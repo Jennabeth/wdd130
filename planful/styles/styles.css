@@ -2,6 +2,9 @@
 
 
 
-.home-page-phone, .home-page-bank {
+.home-page-phone, .home-page-bank{
     width: 250px;
+}
+#how-family, #how-couple{
+    width: 300px;
 }
