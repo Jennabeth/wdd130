@@ -5,6 +5,7 @@
 .home-page-phone, .home-page-bank{
     width: 250px;
 }
-#how-family, #how-couple{
-    width: 300px;
+.how-couple, .how-family{
+    width: 250px;
+    height: 285px;
 }
