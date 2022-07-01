@@ -11,9 +11,20 @@ nav{
 }
 nav a {
     text-align: center;
-    color:rgba(25, 22, 22, 0.726);
-    text-decoration: none;
-    padding: 50px;
+    color:rgba(55, 55, 55);
+    text-decoration:underline;
+    padding: 20px;
+}
+header{
+    display:grid;
+    grid-template-columns: 90px auto;
+    background-color: #cb8589;
+    color:rgb(55, 55, 55);
+
+}
+nav a:hover{
+    background-color:#fff ;
+    color: rgb(55, 55, 55))
 }
 .logo{
     width:155px;
