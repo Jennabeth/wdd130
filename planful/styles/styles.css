@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Pacifico&display=swap');
 
-
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -12,6 +11,8 @@ nav{
 nav a {
     text-align: center;
     color: #525151;
+    font-family: 'M PLUS rounded 1c';
+    font-size: larger;
     text-decoration:underline;
     padding: 20px;
 }
@@ -30,46 +31,73 @@ nav a:hover{
 .logo{
     width:155px;
 }
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(8, 10%);
+}
 .home-page-phone, .home-page-bank{
     width: 250px;
+    display: block;
 
 }
 .home-page-phone{
-   
-    margin-top: 200px;
-    margin-left: 150px;
-
+   grid-column: 2/3;
+   grid-row: 1/4;
+   margin-left: 50px;
+   z-index: -1;
 }
-.home-page-bank{
-
+.container{
+    border:20px #cb8589;
+    padding: 15px;
+    width: 50em;
+    height:15em;
+    grid-column: 5/6;
+    grid-row: 1;
+    margin-top: -50px;
+}
+.home-page-bank, .container{
+    float:right;
+   
 }
 body{
     background-color: #e8d2ae;
     font-family: 'M PLUS rounded 1c', sans-serif;
     color:#525151;
     font-size: 16px;
-    padding:0;
-    margin:0;
+
 }
 .home-info{
     background-color: #cb8589;
-    color: #525151;
+    color:#525151;
     line-height: 0.5em;
-    margin-top: 300px;
-    margin-left: 200px;
-    width: 390px;
-    height: 470px;
+    padding:10px;
+    width: 30em;
+    height: 23em;
+    grid-column: 3/7;
+    grid-row: 4/ 8;
 }
 .home-info h2{
+    font-family: 'M PLUS rounded 1c', sans-serif;
     color: #525151;
     font-size: larger;
-    text-align: left;
     font-weight: 600;
-    margin-top: 50px;
+    
 }
 .home-info p {
+    color: #525151;
+    font-family: 'M PLUS rounded 1c';
     text-align: center;
     line-height:normal;
+
+}
+.container p{
+    text-align: lest;
+    line-height: normal;
+    background-color: #cb8589;
+    color:#525151;
+    width:15em;
+    height: 15em;
 
 }
 .how-couple, .how-family{
@@ -84,10 +112,7 @@ body{
     width: 280px;
 
 }
-#home-grid{
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-}
+
 .home-title{
     font-family: 'Pacifico', cursive;
     text-align: center;
@@ -97,8 +122,6 @@ body{
 }
 #background{
     background-color: #e8d2ae;
-    height: 800px;
-    
 }
 footer{
     background-color: #e8d2ae;
