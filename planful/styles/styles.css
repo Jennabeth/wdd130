@@ -47,21 +47,26 @@ nav a:hover{
    margin-left: 50px;
    z-index: -1;
 }
-.container{
-    border:20px #cb8589;
-    padding: 15px;
-    width: 50em;
-    height:15em;
-    grid-column: 5/6;
+.add-info{
+    background-color: #cb8589;
+    color:#525151;
+    text-align: left;
+    width: 250px;
+    height:215px;
+    grid-column: 5/7;
     grid-row: 1;
-    margin-top: -50px;
 }
-.home-page-bank, .container{
+.home-page-bank{
+    background-color: #cb8589;
+    height:185px;
+    padding: 15px;
     float:right;
+    grid-column:7;
+    grid-row:1;
    
 }
 body{
-    background-color: #e8d2ae;
+    background-color:#e8d2ae;
     font-family: 'M PLUS rounded 1c', sans-serif;
     color:#525151;
     font-size: 16px;
@@ -89,15 +94,6 @@ body{
     font-family: 'M PLUS rounded 1c';
     text-align: center;
     line-height:normal;
-
-}
-.container p{
-    text-align: lest;
-    line-height: normal;
-    background-color: #cb8589;
-    color:#525151;
-    width:15em;
-    height: 15em;
 
 }
 .how-couple, .how-family{
