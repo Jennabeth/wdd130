@@ -99,10 +99,10 @@ body{
 
 .why-couple, .why-pizza{
     width: 250px;
-    height: 320px;
+    height: 375px;
 }
 .why-family {
-    width: 280px;
+    width: 350px;
 
 }
 
@@ -195,12 +195,11 @@ body{
     line-height: 1.5em;
     z-index: 8;
     padding:18px;
-    width: 18em;
+    width: 23em;
     height: 18em;
-    font-size:medium;
+    font-size:larger;
     font-weight: 500;
-    grid-column: 3;
-    margin-left: -20px;
+    grid-column: 2;
     grid-row: 1;
 
 }
@@ -211,7 +210,6 @@ body{
 .why-family{
     grid-column: 3;
     grid-row:4;
-    margin-top: -40px;
 }
 #choose-add{
     font-family:'M PLUS rounded 1c', sans-serif; 
@@ -226,7 +224,6 @@ body{
     font-size:medium;
     font-weight: 500; 
     grid-column: 6;
-    margin-top: -40px;
     grid-row: 4;
 
 
