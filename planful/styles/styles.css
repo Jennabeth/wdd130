@@ -98,11 +98,11 @@ body{
 }
 
 .why-couple, .why-pizza{
-    width: 250px;
+    width: 280px;
     height: 375px;
 }
 .why-family {
-    width: 350px;
+    width: 400px;
 
 }
 
@@ -205,11 +205,12 @@ body{
 }
 .why-couple{
     grid-column: 6;
-    grid-row: 2;
+    grid-row: 1;
 }
 .why-family{
-    grid-column: 3;
+    grid-column: 2;
     grid-row:4;
+    margin-top: 60px;
 }
 #choose-add{
     font-family:'M PLUS rounded 1c', sans-serif; 
@@ -219,11 +220,11 @@ body{
     line-height: 1.5em;
     z-index: 8;
     padding:18px;
-    width: 18em;
-    height: 20em;
-    font-size:medium;
+    width: 23em;
+    height: 18em;
+    font-size:larger;
     font-weight: 500; 
-    grid-column: 6;
+    grid-column: 5;
     grid-row: 4;
 
 
@@ -236,17 +237,22 @@ body{
     line-height: 1.5em;
     z-index: 8;
     padding:18px;
-    width: 18em;
+    width: 23em;
     height: 20em;
-    font-size:medium;
+    font-size:larger;
     font-weight: 500; 
-    grid-column: 3;
-    grid-row: 6;
+    grid-column: 2;
+    grid-row: 7;
 }
 .why-pizza{
     grid-column: 6;
     grid-row:7;
 }
+.why-couple, .why-family, .why-pizza{
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #525151;
+}
+
 footer{
     background-color: #e8d2ae;
     color:#525151;
